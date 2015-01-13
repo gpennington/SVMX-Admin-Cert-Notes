@@ -7,3 +7,47 @@ Team: Anonymous
 3 Excitements: Growth, Tracking/Data/Informed Decisions, Knoweledge to inform clients
 
 
+Create account at:
+https://community.servicemax.com
+    Check out the welcome document
+    Tons of Education Videos
+
+
+
+Navigation Overview
+-------------------
+
+Sidebar
+    Provides quick access to links
+    Remove Create New as best practice
+    Service Max only search
+    Service Max Setup
+
+Home
+
+Tabs
+    "home pages" for objects
+    Reports and Tools
+    Create new View to show objects rows with specific fields and filters
+
+App Menu
+    Top Right
+    Different Collections of Tabs
+
+Objects
+
+Setup
+    Manage Users/Licences/Profiles/Permissions
+
+    Build>Customize>
+    Create>Objects
+        Custom and Installed Package Objects
+
+Name Dropdown
+    Profile/Settings
+
+Object Detail
+    SFM Buttons
+    Buttons are grouped in Wizards
+    Can Restrict Buttons/Wizards to Profiles
+
