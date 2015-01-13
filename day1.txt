@@ -35,6 +35,12 @@ App Menu
     Different Collections of Tabs
 
 Objects
+    Field Types
+        Lookup
+        Picklist
+
+    A Private Record can be viewed by an Owner, ALSO someone with a "specified connection"
+
 
 Setup
     Manage Users/Licences/Profiles/Permissions
@@ -51,3 +57,49 @@ Object Detail
     Buttons are grouped in Wizards
     Can Restrict Buttons/Wizards to Profiles
 
+Recycle Bin
+    15 Days of deleted storage
+
+
+Location MGTM - Module 1
+------------------------
+
+Note: Any record created with an address, make sure you validate the address
+
+Location types
+    Internal Locaion
+    Customer Location
+    Mobile Company Location
+
+
+
+Installed Products - Module 2
+-----------------------------
+
+Installed Product is associated with a Location, Contact, Account
+
+
+
+Warranty MGTM - Module 3
+-----------------------------
+
+Warranty Terms + Products = Applicable Products
+Installed/Applicable Product --> Product Warranty
+
+SEE: Missing Picture 64
+SEE: Missing Picture 65
+SEE: Missing Picture 68
+
+
+Work Order Management - Module 4
+--------------------------------
+
+
+Service Resource Architecture - Module 5
+----------------------------------------
+
+Service Teams
+Technicians/Equipment
+Dispatchers
+
+A technichian MUST HAVE a service team.
