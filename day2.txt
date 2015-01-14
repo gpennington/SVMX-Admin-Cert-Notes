@@ -1,0 +1,14 @@
+Service Max Training
+Day 2
+--------------------
+
+Applicable Product is called a "Joint" or "Junction Object"
+Purpose of "Checking Entitlement" is billing
+    Followed by entering T&M
+
+Examples of Resources:
+    Technician
+    Equipment
+    Dispatcher
+    Service Team
+    * Anything that needs to be scheduled
