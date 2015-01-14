@@ -26,7 +26,7 @@ Working Hours is a standard FSDC
 
 
 Dispatch Console - Module 6
-----------------------------------------------------
+---------------------------
 
 If a user can get to the dispatch console, they can manipulate it.
 
@@ -50,3 +50,38 @@ Administrator Configuration of Dispatch Console:
     Hover Rules
     Event Subject Rules
     Dispatch Console Field Updates
+
+
+Service Plan and Contract Mgmt - Module 7
+-----------------------------------------
+
+Applicable Product = Warranty Term + Product
+
+Available Service - Broad - Pricing Rules and Services Offerings
+Activity Master - Granular - Specific to a... product?
+SLA - Service Level Agreement
+
+Service Plan - roll up of Available Services, Activity Master, SLA
+
+Pricing Rules -> Available Services
+Labor Pricing -> Activity Product
+
+Service Offerings: services offered at a discount for x # of units  
+
+
+Service Contract: Start and End Date for Service Contract, Service Plan, Contact
+
+Service Price Book - ServiceMax object, pricebook for services, activities
+
+Pro-Forma is available Out of the Box 
+
+
+If a Service/Maintenance Contract is created from a Service Plan and changes are then made to the Contract, will the Service Plan update with the changes?
+No - the tie is severed once the Contract is created
+
+
+What two components are tied to/Lookup to the Available Services object? 
+Pricing Rules
+Service Offerings
+
+
