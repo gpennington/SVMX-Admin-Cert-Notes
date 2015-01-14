@@ -86,10 +86,6 @@ Warranty MGTM - Module 3
 Warranty Terms + Products = Applicable Products
 Installed/Applicable Product --> Product Warranty
 
-SEE: Missing Picture 64
-SEE: Missing Picture 65
-SEE: Missing Picture 68
-
 
 Work Order Management - Module 4
 --------------------------------
@@ -98,9 +94,10 @@ Work Order Management - Module 4
 Service Resource Architecture - Module 5
 ----------------------------------------
 
-Service Teams
-Technicians/Equipment
-Dispatchers
+Resources:
+    Service Teams
+    Technicians/Equipment
+    Dispatchers
 
 A technichian MUST HAVE a service team.
 

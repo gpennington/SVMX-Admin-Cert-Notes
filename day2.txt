@@ -2,6 +2,9 @@ Service Max Training
 Day 2
 --------------------
 
+
+Some review from day 1:
+
 Applicable Product is called a "Joint" or "Junction Object"
 Purpose of "Checking Entitlement" is billing
     Followed by entering T&M
@@ -12,3 +15,30 @@ Examples of Resources:
     Dispatcher
     Service Team
     * Anything that needs to be scheduled
+
+Assign Skills/Exp and Products at the Technician level
+
+
+Service Resource Architecture - Module 5 (continued)
+----------------------------------------------------
+
+Working Hours is a standard FSDC
+
+
+Dispatch Console - Module 6
+----------------------------------------------------
+
+If a user can get to the dispatch console, they can manipulate it.
+
+Filter Technians/Service teams with Search bar at the top (inexplicably at the top. Yeah, UX is a thing)
+
+Filter WO's by field with (another) Search bar at the top (lol, UX)
+
+Ways DC can be configured by user:
+    Fields in WO Queue
+    Fields in Technichian
+    Auto-Refresh
+    Color Highlights
+    Select Filters
+    Timezone
+    Keyword searchs (by field)
