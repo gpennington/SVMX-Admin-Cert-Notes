@@ -42,3 +42,11 @@ Ways DC can be configured by user:
     Select Filters
     Timezone
     Keyword searchs (by field)
+
+Dispatch Consonle Views display Work Orders meeting certain criteria
+
+Administrator Configuration of Dispatch Console:
+    List Views
+    Hover Rules
+    Event Subject Rules
+    Dispatch Console Field Updates
