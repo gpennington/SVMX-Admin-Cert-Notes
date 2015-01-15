@@ -46,4 +46,55 @@ Build PM Template before PM Plan
 
 
 Parts, Logistics, Inventory - Module 9
----------------------------------
+--------------------------------------
+
+
+Product Stock Object
+    Product/Location/Qty 
+    Also, Status/Reorder Point/Reorder QTy
+
+    Stocked Serial
+        Serial Number
+        Stock
+        Product (again for some insane reason)
+
+
+
+Parts Request
+Receive Parts
+    Request/Recieve are different steps
+    Work Detail line item "Request/Receipt" Record Type
+
+    "Receive Parts" 
+    "Record T&M" to consume the Part
+    "Post Inventory" on WO to Complete transaction
+
+
+T&M - Billing
+Positing Inventory - Inventory
+
+
+Stock Adjustment
+    Product/Location/Qty
+    Also, Type
+
+
+SFM - Module 10
+---------------
+
+Service Flow Transaction - Big Blue Button
+    SFT HAS to be added to a SF Wizard
+
+
+    Service Flow Transaction Designer
+
+
+
+SFM Expressions = Criteria (qualifying criteria)
+SFM Mappings - Linking two fields
+
+Source Object Updates is the only tab that doesn't require saving (tab is not required either)
+
+Transactions = Wizard Steps
+
+You make a Wizard appear or not appear, not a Transaction (button)
