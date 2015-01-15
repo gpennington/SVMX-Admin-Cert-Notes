@@ -41,15 +41,17 @@ Ways DC can be configured by user:
     Color Highlights
     Select Filters
     Timezone
-    Keyword searchs (by field)
+    Keyword searchs (by field) for Techs, Service Teams, Workorders
+
 
 Dispatch Consonle Views display Work Orders meeting certain criteria
 
 Administrator Configuration of Dispatch Console:
     List Views
-    Hover Rules
-    Event Subject Rules
+    Event Hover Rules
+    Event Subject Rules (Goes in email too)
     Dispatch Console Field Updates
+    WO Field Updates (without opening the WO record)
 
 
 Service Plan and Contract Mgmt - Module 7
@@ -57,19 +59,30 @@ Service Plan and Contract Mgmt - Module 7
 
 Applicable Product = Warranty Term + Product
 
-Available Service - Broad - Pricing Rules and Services Offerings
-Activity Master - Granular - Specific to a... product?
-SLA - Service Level Agreement
 
-Service Plan - roll up of Available Services, Activity Master, SLA
+Service Plan - roll up of Available Services, Activity Master, SLA, Products
+                Templates to be used in Contracts
 
-Pricing Rules -> Available Services
-Labor Pricing -> Activity Product
+    Available Service - Broad 
+        Pricing Rules
+        Service Offerings (example: come out and repair or calibrate)
+    Activity Master - Granular - Specific to a... product?
+        Labor Pricing -> Activity Product
+    Products
+        Parts Pricing
+    SLA - Service Level Agreement
+        Respone and Restoration Commitments
 
-Service Offerings: services offered at a discount for x # of units  
 
 
-Service Contract: Start and End Date for Service Contract, Service Plan, Contact
+
+Coverage 
+    Service Offerings: services offered at a discount for x # of Service units
+    PM Offerings: So many PM visits per year 
+
+Service Maintenence/Contract: Start and End Date for Service Contract, Service Plan, Contact
+    Additional IP Coverage on Contract
+    has a price
 
 Service Price Book - ServiceMax object, pricebook for services, activities
 
@@ -84,4 +97,6 @@ What two components are tied to/Lookup to the Available Services object?
 Pricing Rules
 Service Offerings
 
-
+Auto-Entitlement rules be set to look to:
+    Parent
+    Top Levelment
