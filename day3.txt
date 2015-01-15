@@ -2,3 +2,48 @@ Service Max Training
 Day 3
 --------------------
 
+Preventive Maintenance - Module 8
+---------------------------------
+
+PM Plan
+    Task Template
+    Preventive Maintenance Process
+    PM Plan Template
+
+Preventive Maintenance Process runs at interval for batch
+
+
+Via Setup>Installed base & PM
+
+Task Template
+    Task steps
+    Required Parts
+
+PM Plan Templates
+    Coverage types:
+        Account
+        Product
+        Location
+
+    Work Order Purpose = Task Template
+    Schedule
+    Applicable Products
+        Product with Warranty Terms?
+
+PM Plan
+    CHoose a Template
+    NOTE TO SELF: Sugget to client a naming scheme for PM Plan Name. Otherwise it'll be a cluster
+
+PM Processes
+    Used for processing and configuring rules for creating Work Orders and Cases
+
+3 places to create PM Plan
+    Accounts
+    Location
+    Service/Mat Contract
+
+Build PM Template before PM Plan
+
+
+Parts, Logistics, Inventory - Module 9
+---------------------------------
