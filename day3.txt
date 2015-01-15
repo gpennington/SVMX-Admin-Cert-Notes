@@ -82,19 +82,31 @@ Stock Adjustment
 SFM - Module 10
 ---------------
 
-Service Flow Transaction - Big Blue Button
-    SFT HAS to be added to a SF Wizard
-
-
-    Service Flow Transaction Designer
-
-
-
 SFM Expressions = Criteria (qualifying criteria)
 SFM Mappings - Linking two fields
 
-Source Object Updates is the only tab that doesn't require saving (tab is not required either)
+Service Flow Transaction - Big Blue Button
+    Criteria #1 - Execute If...
+    SFT HAS to be added to a SF Wizard
+    Service Flow Transaction Designer
+    Transactions = Wizard Steps
 
-Transactions = Wizard Steps
+    Source Object Updates is the only tab that doesn't require saving (tab is not required either)
 
-You make a Wizard appear or not appear, not a Transaction (button)
+SF Wizards - Button Trays
+    
+    General Info
+        Criteria #2 - Show Wizard / Not show Wizards
+        You make a Wizard appear or not appear, not a Transaction (button)
+
+    Manage Wizard Steps
+        Handover if sending to next step in Wizard Sequence
+
+    Permissions
+        Who can see and do?
+
+
+Custom Actions
+    Used to invoke URL based, outside resources
+
+
