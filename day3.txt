@@ -15,7 +15,7 @@ Preventive Maintenance Process runs at interval for batch
 
 Via Setup>Installed base & PM
 
-Task Template
+Task Template (do this before PM Template)
     Task steps
     Required Parts
 
@@ -32,11 +32,11 @@ PM Plan Templates
 
 PM Plan
     CHoose a Template
-    NOTE TO SELF: Sugget to client a naming scheme for PM Plan Name. Otherwise it'll be a cluster
+    NOTE TO SELF: Suggest to client a naming scheme for PM Plan Name. Otherwise it'll be a cluster
 
 PM Processes
     Used for processing and configuring rules for creating Work Orders and Cases
-    PUlls in PM Plan and tempalte
+    PUlls in PM Plan and template
 
 3 places to create PM Plan
     Accounts

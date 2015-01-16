@@ -3,6 +3,28 @@ Day 4
 --------------------
 
 
+
+iPad - Module 11
+----------------
+    Calendar
+        Tech's Work Orders and Activites
+    ServiceMax Search
+        Searches created in SFM
+    Recents
+        Only records created on ipad
+
+
+    Sync Icon
+        Green - synced
+        Orange - syncing
+        Red - Error
+
+    Sync Configuration
+        Pulls in field changes
+
+
+
+
 Review
 ------
 

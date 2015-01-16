@@ -22,7 +22,7 @@ Assign Skills/Exp and Products at the Technician level
 Service Resource Architecture - Module 5 (continued)
 ----------------------------------------------------
 
-Working Hours is a standard FSDC
+Working Hours is a standard FSDC object
 
 
 Dispatch Console - Module 6

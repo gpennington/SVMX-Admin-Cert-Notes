@@ -94,7 +94,7 @@ Can be created from:
     Cases
     Accounts
     Locations
-    Installed Products
+    Installed Products  
 
 
 Service Resource Architecture - Module 5
