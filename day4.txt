@@ -23,7 +23,21 @@ iPad - Module 11
         Pulls in field changes
 
 
+    Mobile and Offline Setup
+        Ipad Settings
+            Service Report
+                Can add additional Fields
+                Can customize Report Lines
+        SFM Mobile Permissions
+            View Processse
+            SFM Standalone Create Processes (created in SFM Transaction Designer)
 
+        Mobile Configuration
+            Download Criteria
+                Choose an object and criteria for ipad to DL records
+                SFM Criteria Object
+            Sync Settings
+                Configure intervals of syncing
 
 Review
 ------
