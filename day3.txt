@@ -36,6 +36,7 @@ PM Plan
 
 PM Processes
     Used for processing and configuring rules for creating Work Orders and Cases
+    PUlls in PM Plan and tempalte
 
 3 places to create PM Plan
     Accounts
@@ -93,6 +94,10 @@ Service Flow Transaction - Big Blue Button
 
     Source Object Updates is the only tab that doesn't require saving (tab is not required either)
 
+    Mode of Execution:
+        Interactive 
+        Background
+
 SF Wizards - Button Trays
     
     General Info
@@ -100,11 +105,15 @@ SF Wizards - Button Trays
         You make a Wizard appear or not appear, not a Transaction (button)
 
     Manage Wizard Steps
+        Create Steps as Transactions
         Handover if sending to next step in Wizard Sequence
+        Can make Step active or not through criteria
 
     Permissions
         Who can see and do?
+        Salesforce Profiles
 
+    If you ONLY want to show or not show 1 Button, it needs to be in its own Wizard
 
 Custom Actions
     Used to invoke URL based, outside resources

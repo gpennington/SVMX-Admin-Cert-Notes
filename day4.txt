@@ -1,0 +1,166 @@
+Service Max Training
+Day 4
+--------------------
+
+
+Review
+------
+
+Iventory
+--------
+
+Parts Request (Work Detail)
+    From Work Order
+    Parts Request creates Requests/Receipt Work Detail
+    Find Stock (From Map)
+        Request Stock
+    Out to ERP or whatever
+    Technician "Receive Parts"
+        Request is then completed (work detail line status)
+
+    T&M  - "use" the part. 
+        Check entitlements
+        Record labor, parts used
+
+    Post to Inventory
+        Will update Warehouse and Van inventory
+
+    Close Work Order
+        Record Additional Details via SFM
+            Notes, PRoblems, etc
+
+
+
+RMAs
+    Available out of the box
+
+Location needs to have "stocking location" set to checked to have stock
+
+
+Stock lookup allows requesting multiple parts and qtys at a time
+
+
+Preventive Maintenance
+----------------------
+
+Task Template
+    Required Parts (not required)
+        Tools
+        Consumables
+    Tasks
+
+    Creat Task Template first (before PM Template)
+    Don't have to use tasks
+
+
+PM Process
+    Can scheulde Work Orders x days before scheduled
+    Brings in schedule on PM Plan
+    Can assign
+    Work Orders and Cases can be created
+
+
+
+Warranty
+--------
+
+Warranty Term should be created before:
+    Applicable Product, Installed Product, Product Warranty
+
+Applicable Object - Joint object between Warranty Terms and PRoduct
+
+"Coverage Effective From" field used to calculate warranty start date on IP
+
+Service and Dispatch
+--------------------
+
+Service teams manage Techs and Equipment
+
+Technicican must be associated with Service Team
+
+Service teams created in SMax setup
+
+
+Service Contacts
+----------------
+
+A SMax object
+
+Create a Service/Maintenance Contract from a Service Plan (so reusable)
+    Service Contracts aren't updated if Service Plan is changed after creating contract
+    Create from Account, Location, Installed Product
+        Specifc Details/Prices can be changed on the contract after creation
+
+        Service Plan (not required to use, but use)
+            Pricing Rules carried over (available services)
+            Labor Pricing (activity masters)
+            Parts Pricing
+
+            PM Offerings
+
+        Service Level Agreements
+            Response Times
+            Exclusions
+
+
+Service Offerings
+    Number visits (units) at what price
+
+
+Work Orders
+-----------
+
+PDF of Report can be attached directly to WO
+
+Entitlement
+-----------
+
+2 Ways to Entitle
+    Warranty
+    Service Contract
+
+Manual or Auto-Entitlement Rules
+
+Auto-Entitlement can:
+    look at top-level or parent
+    choose Warranty or Service Contact 
+    Checks rules in sequence until match is found
+    
+
+Service Flow Manager
+--------------------
+
+Benefits
+    Mappings
+    Reusable Mappings
+    Reusable Criteria
+    Control Permissions
+    Field Updates (like closing a work order)
+    Configure Page Layout
+
+Put a SFM Transaction (button) (step) in a Wizard to enable it
+
+Wizard and Transactions can have Criteria to show
+
+Transactions can hand over to "Handover" to next step in Wizard
+
+Service Flow Wizard
+    General Info
+    Manage Wizard Steps
+        Make SFM Transaction 
+    Permissions
+
+Standard and Custom Transactions can be CLONED
+Only Custom Transactions can be EDITED
+
+Wizard Step Type
+    SFM 
+    Others
+        Actions - Links/Etc
+
+
+Location
+--------
+
+MUST be associated with an Account
+Might need to be stocking location

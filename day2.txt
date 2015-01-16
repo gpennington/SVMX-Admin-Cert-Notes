@@ -47,7 +47,7 @@ Ways DC can be configured by user:
 Dispatch Consonle Views display Work Orders meeting certain criteria
 
 Administrator Configuration of Dispatch Console:
-    List Views
+    List Views (filtered work order views)
     Event Hover Rules
     Event Subject Rules (Goes in email too)
     Dispatch Console Field Updates

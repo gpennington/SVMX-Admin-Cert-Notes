@@ -90,6 +90,12 @@ Installed/Applicable Product --> Product Warranty
 Work Order Management - Module 4
 --------------------------------
 
+Can be created from:
+    Cases
+    Accounts
+    Locations
+    Installed Products
+
 
 Service Resource Architecture - Module 5
 ----------------------------------------
